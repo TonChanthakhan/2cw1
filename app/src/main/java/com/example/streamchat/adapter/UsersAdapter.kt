@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.adapter
+package com.example.streamchat.adapter
 
 import android.text.format.DateFormat
 import android.util.Log
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.streamchatdemo.databinding.UserRowLayoutBinding
-import com.example.streamchatdemo.ui.users.UsersFragmentDirections
+import com.example.streamchat.databinding.UserRowLayoutBinding
+import com.example.streamchat.ui.users.UsersFragmentDirections
 import io.getstream.chat.android.client.ChatClient
 import io.getstream.chat.android.client.models.User
 

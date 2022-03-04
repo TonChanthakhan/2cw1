@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.ui.login
+package com.example.streamchat.ui.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.streamchatdemo.databinding.FragmentLoginBinding
-import com.example.streamchatdemo.model.ChatUser
+import com.example.streamchat.databinding.FragmentLoginBinding
+import com.example.streamchat.model.ChatUser
 import com.google.android.material.textfield.TextInputLayout
 
 class LoginFragment : Fragment() {

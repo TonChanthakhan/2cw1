@@ -1,4 +1,4 @@
-package com.example.streamchatdemo
+package com.example.streamchat
 
 import android.app.Application
 import io.getstream.chat.android.client.ChatClient

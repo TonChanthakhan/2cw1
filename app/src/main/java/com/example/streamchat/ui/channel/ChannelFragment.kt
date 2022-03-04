@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.ui.channel
+package com.example.streamchat.ui.channel
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -14,8 +14,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.streamchatdemo.R
-import com.example.streamchatdemo.databinding.FragmentChannelBinding
+import com.example.streamchat.R
+import com.example.streamchat.databinding.FragmentChannelBinding
 import io.getstream.chat.android.client.ChatClient
 import io.getstream.chat.android.client.models.Channel
 import io.getstream.chat.android.client.models.Filters

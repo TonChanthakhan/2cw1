@@ -23,7 +23,7 @@
         android:id="@+id/subtitle_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reliable_and_fast"
+
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/title_textView"

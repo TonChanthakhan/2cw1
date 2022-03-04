@@ -1,12 +1,12 @@
-package com.example.streamchatdemo.ui
+package com.example.streamchat.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import com.example.streamchatdemo.R
-import com.example.streamchatdemo.model.ChatUser
-import com.example.streamchatdemo.ui.login.LoginFragmentDirections
+import com.example.streamchat.R
+import com.example.streamchat.model.ChatUser
+import com.example.streamchat.ui.login.LoginFragmentDirections
 import io.getstream.chat.android.client.ChatClient
 import io.getstream.chat.android.client.models.name
 

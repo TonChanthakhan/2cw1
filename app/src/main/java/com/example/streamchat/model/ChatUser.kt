@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.model
+package com.example.streamchat.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

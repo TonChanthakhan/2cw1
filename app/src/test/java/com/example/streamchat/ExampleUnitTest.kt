@@ -1,4 +1,4 @@
-package com.example.streamchatdemo
+package com.example.streamchat
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.ui.chat
+package com.example.streamchat.ui.chat
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
-import com.example.streamchatdemo.databinding.FragmentChatBinding
+import com.example.streamchat.databinding.FragmentChatBinding
 import com.getstream.sdk.chat.viewmodel.MessageInputViewModel
 import com.getstream.sdk.chat.viewmodel.messages.MessageListViewModel
 import io.getstream.chat.android.ui.message.input.viewmodel.bindView

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.streamchatdemo.ui.login.LoginFragment"
+        android:name="com.example.streamchat.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/channelFragment"
-        android:name="com.example.streamchatdemo.ui.channel.ChannelFragment"
+        android:name="com.example.streamchat.ui.channel.ChannelFragment"
         android:label="fragment_channel"
         tools:layout="@layout/fragment_channel" >
         <action
@@ -35,7 +35,7 @@
             app:popExitAnim="@anim/to_right" />
         <argument
             android:name="chatUser"
-            app:argType="com.example.streamchatdemo.model.ChatUser" />
+            app:argType="com.example.streamchat.model.ChatUser" />
         <action
             android:id="@+id/action_channelFragment_to_usersFragment"
             app:destination="@id/usersFragment"
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.example.streamchatdemo.ui.chat.ChatFragment"
+        android:name="com.example.streamchat.ui.chat.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" >
         <argument
@@ -68,7 +68,7 @@
     </fragment>
     <fragment
         android:id="@+id/usersFragment"
-        android:name="com.example.streamchatdemo.ui.users.UsersFragment"
+        android:name="com.example.streamchat.ui.users.UsersFragment"
         android:label="fragment_users"
         tools:layout="@layout/fragment_users" >
         <action

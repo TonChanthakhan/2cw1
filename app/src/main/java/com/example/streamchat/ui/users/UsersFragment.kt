@@ -1,4 +1,4 @@
-package com.example.streamchatdemo.ui.users
+package com.example.streamchat.ui.users
 
 import android.os.Bundle
 import android.util.Log
@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.streamchatdemo.R
-import com.example.streamchatdemo.adapter.UsersAdapter
-import com.example.streamchatdemo.databinding.FragmentUsersBinding
+import com.example.streamchat.R
+import com.example.streamchat.adapter.UsersAdapter
+import com.example.streamchat.databinding.FragmentUsersBinding
 import io.getstream.chat.android.client.ChatClient
 import io.getstream.chat.android.client.api.models.QueryUsersRequest
 import io.getstream.chat.android.client.models.Filters
